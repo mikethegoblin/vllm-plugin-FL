@@ -66,6 +66,8 @@ A vLLM plugin built on the FlagOS unified multi-chip backend.
     3.4 Installation FlagCX
     ```sh
     cd plugin/torch/
+    FLAGCX_ADAPTOR=[xxx] pip install . --no-build-isolation
+    # or editable install
     FLAGCX_ADAPTOR=[xxx] pip install -e . --no-build-isolation
     ```
     Note: [xxx] should be selected according to the current platform, e.g., nvidia, ascend, etc.
